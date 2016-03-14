@@ -4,7 +4,7 @@
 // where store is Application name, and array [] is where the dependencies go.
 
 
-// Controller name should be
+// Controller name should be Capitalized
 app.controller('StoreController', function (){
     this.product = gem;
 });
@@ -12,7 +12,9 @@ app.controller('StoreController', function (){
 var gem = {
     name: "Dodecahedron",
     price: 2.95,
-    description: '...',
+    description: 'Some gems have hidden qualities beyond their shine...',
+    canPurchase: true,
+    soldOut: true,
 
 }
 
